@@ -1,0 +1,12 @@
+Package: elevdl
+Type: Package
+Title: Downloads Elevation Data
+Version: 0.1.0
+Authors@R:
+    person("Brian J.", "Smith", 
+    email = "bjsmith@aggiemail.usu.edu", role = c("aut", "cre"))
+Description: Helper functions to download USGS 3DEP elevation data.
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1

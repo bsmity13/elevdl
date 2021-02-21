@@ -1,0 +1,36 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+# Use 'badger' to place badges
+library(badger)
+```
+
+# elevdl
+
+<!-- badges: start -->
+`r badge_license("GPL-3")`
+`r badge_custom("repo status", "WIP", "yellow", "https://www.repostatus.org/#wip")`
+`r badge_devel("bsmity13/elevdl", "blue")`
+<!-- badges: end -->
+
+The goal of elevdl is to make downloading elevation data easy.
+
+## Installation
+
+Install the development version from [GitHub](https://github.com/bsmity13/elevdl) with:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("bsmity13/elevdl")
+```
+This package is very small. There is a chance I will merge this with other functions in another package. Check back here for updates.
