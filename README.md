@@ -25,3 +25,15 @@ devtools::install_github("bsmity13/elevdl")
 
 This package is very small. There is a chance I will merge this with
 other functions in another package. Check back here for updates.
+
+## To-do list
+
+  - [ ] Create URLs
+      - [x] Create URL from numeric vector
+      - [x] Create URL from `data.frame`
+      - [ ] Create URL from `Spatial*` object
+      - [ ] Create URL from `sf` object
+  - [ ] Download data
+      - [ ] Download and save
+      - [ ] Download to temp and load
+  - [ ] Mosaic rasters
